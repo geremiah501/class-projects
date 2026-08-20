@@ -5,7 +5,7 @@ body {
 #container {
     background-color: #f6f5c8;
     width: 950px;
-    margin: 20 auto;
+    margin: 20px auto;
     border: 1.5px solid hsl(0, 94%, 38%);
     padding: 20px;
     border-radius: 10px;
