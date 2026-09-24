@@ -102,10 +102,23 @@ footer {
     
     .multi-col section 
     aside{
-        width: 50%
+        width: 50%;
         border: 1px solid hsl(0, 94%, 38%);
         padding: 20px;
         margin: 20px;
     }
 
+}
+
+/* desktop styles */
+
+@media (min-width: 1024px) {
+   .image-container {
+      display: flex;
+   }
+
+.image_style {
+    border: 2px solid hsl(0, 100%, 50%);
+    border-radius: 20px;
+    margin: 20px;
 }
